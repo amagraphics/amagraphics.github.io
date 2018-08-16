@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+<meta charset="utf-8">
+    <link rel="stylesheet"
+          href="./css/style.css">
+    
+        <link rel="shortcut icon" type="image/png" href="https://i.imgur.com/TWjSSLd.png"/>
+        <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat">
+        <title>Contact - uCraft</title>
+    
+        <h2>Today it's <script> 
+var mydate=new Date(); 
+var year=mydate.getYear(); 
+if (year < 1000) 
+year+=1900; 
+var day=mydate.getDay(); 
+var month=mydate.getMonth()+1; 
+if (month<10) 
+month="0"+month; 
+var daym=mydate.getDate(); 
+if (daym<10) 
+daym="0"+daym; 
+document.write("<small><font color='white' face='Arial'><b>"+daym+"/"+month+"/"+year+"</b></font></small>") 
+</script></h3>
+    
+
+        <img src="./img/banner.png" oncontextmenu="return false" draggable="false" onmousedown="return false" style="user-drag: none" alt="Banner">
+   <div id="navbar">
+       <a href="index.html">Home</a>
+       <a href="about.html">About</a>
+       <a class="active" href="contact.html">Contact</a>
+</div> 
+    
+</head>
+<body>
+    
+    <div class="caixagran">
+        <br>
+          <h5><center>CONTACT</center></h5>
+    </div>
+    
+  <div class="mapa"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3004.1170569070287!2d1.1049203148141489!3d41.1537970184073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a151bb134f3ed5%3A0xe17b0d63649689a9!2sEADR+-+Escola+d&#39;Art+i+Disseny+de+Reus!5e0!3m2!1sca!2ses!4v1521058554368" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+    
+    </body>
+    
+<div id="footer"><center>© 2018 μCraft</center></div>
+    
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</html>

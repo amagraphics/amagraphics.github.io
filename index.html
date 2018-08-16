@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+<meta charset="utf-8">
+    <link rel="stylesheet"
+          href="./css/style.css">
+    
+    <link rel="shortcut icon" type="image/png" href="https://i.imgur.com/TWjSSLd.png"/>
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat">
+    <title>Home - uCraft</title>
+    
+    <h2>Today it's <script> 
+var mydate=new Date(); 
+var year=mydate.getYear(); 
+if (year < 1000) 
+year+=1900; 
+var day=mydate.getDay(); 
+var month=mydate.getMonth()+1; 
+if (month<10) 
+month="0"+month; 
+var daym=mydate.getDate(); 
+if (daym<10) 
+daym="0"+daym; 
+document.write("<small><font color='white' face='Montserrat'><b>"+daym+"/"+month+"/"+year+"</b></font></small>") 
+</script> 
+    </h3>
+    
+   
+        <img src="./img/banner.png" oncontextmenu="return false" draggable="false" onmousedown="return false" style="user-drag: none" alt="Banner">
+   <div id="navbar">
+       <a class="active" href="index.html">Home</a>
+       <a href="about.html">About</a>
+       <a href="contact.html">Contact</a>
+</div> 
+    
+    </head>
+    
+<body>
+
+
+    <div class="caixagran">
+        <br>
+          <h5><center>WELCOME TO AMA DESIGN</center></h5>
+    </div>
+    
+    
+
+
+</body>    
+
+<div id="footer"><center>© 2018 μCraft</center></div>
+    
+    <script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+</html>
