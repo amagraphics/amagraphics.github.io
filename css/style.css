@@ -313,7 +313,7 @@ img {
 /* Add padding BETWEEN each column (if you want) */
 .row,
 .row > .column {
-    padding: 8px;
+    padding: 30px;
 }
 
 /* Create four equal columns that floats next to each other */
