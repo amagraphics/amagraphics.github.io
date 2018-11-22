@@ -145,37 +145,22 @@ h4{
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
 }
-.caixabox{
-    background-color: transparent;
-    color:black;
-    line-height: 1.3;
-    width: 100%;
-    height: 550px;
-    display: block;
-    margin-top: 60px;
-    margin-bottom: 75px;
-    overflow: auto;
-    float: left;
-    position: relative;
-    background-image:url(https://i.imgur.com/U2Jfq7p.png);
-    background-repeat: no-repeat;
-    background-size:auto;
-    background-position: center;
-}
-.caixagran{
+
+.about{
     background-color: transparent;
     color: black;
     line-height: normal;
-    width: 75%;
-    height: 125px;
-    padding: 25px;
-    display: block;
+    width: 80%;
+    display: inline;
     overflow: auto;
     float: left;
     position: relative;
-    margin: 20px;
-    padding-left: 20%;
+    padding-left: 18%;
+    padding-bottom: 50px;
     font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 25px;
 
 }
 
@@ -383,4 +368,12 @@ img {
   
   .btn-img:hover img {
     opacity: 0.8;
+  }
+
+  .title{
+      color: #333;
+      font-weight: bolder;
+      padding: 50px 15%;
+      font-size: 30px;
+      font-family: 'Coalition', sans-serif;
   }
