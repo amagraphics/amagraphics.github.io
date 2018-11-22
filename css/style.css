@@ -81,6 +81,17 @@ h2{
     padding-bottom: 5px;
     padding-left: 10px;
 }
+
+h4{
+    color:lightgray;
+    background-color: #3f3d40;
+    font-family: "Montserrat", sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
 .caixa1{
     background-color: white;
     color:black;
@@ -319,7 +330,7 @@ img {
 /* Create four equal columns that floats next to each other */
 .column {
     float: left;
-    width: 25%;
+    width: 25%;    
 }
 
 /* Clear floats after rows */
@@ -356,11 +367,10 @@ img {
     border: 0;
     cursor: pointer;
     background-color: white;
-    outline: 1px dotted blue;
   }
   
   .btn-img .img-wrap {
-    margin: 10px;
+    margin: 0px;
   }
   
   .btn-img img {
