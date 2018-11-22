@@ -330,7 +330,7 @@ img {
 }
 
 /* Content */
-.content {
+.image {
     background-color: white;
     padding: 10px;
 }
@@ -348,3 +348,29 @@ img {
         width: 100%;
     }
 }
+
+.btn-img {<!--from  w ww. j a va 2s .  co  m-->
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    cursor: pointer;
+    background-color: white;
+    outline: 1px dotted blue;
+  }
+  
+  .btn-img .img-wrap {
+    margin: 10px;
+  }
+  
+  .btn-img img {
+    display: block;
+  }
+  
+  .btn-img:hover .img-wrap {
+    background-color: black;
+  }
+  
+  .btn-img:hover img {
+    opacity: 0.8;
+  }

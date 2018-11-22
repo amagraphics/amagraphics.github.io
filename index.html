@@ -48,31 +48,32 @@ document.write("<small><font color='white' face='Montserrat'><b>"+daym+"/"+month
     <!-- Portfolio Gallery Grid -->
 <div class="row">
     <div class="column">
-      <div class="content">
+      <div class="image">
+          <div class="overlay"></div>
         <img src="https://pbs.twimg.com/profile_images/1061721756409446401/UESFW1Cu_400x400.jpg" alt="Mountains" style="width:100%">
-        <h3>My Work</h3>
-        <p>Lorem ipsum..</p>
+
       </div>
     </div>
     <div class="column">
-      <div class="content">
+      <div class="image">
         <img src="https://pbs.twimg.com/profile_images/1061721756409446401/UESFW1Cu_400x400.jpg" alt="Lights" style="width:100%">
-        <h3>My Work</h3>
-        <p>Lorem ipsum..</p>
+
       </div>
     </div>
     <div class="column">
-      <div class="content">
+      <div class="image">
         <img src="https://pbs.twimg.com/profile_images/1061721756409446401/UESFW1Cu_400x400.jpg" alt="Nature" style="width:100%">
-        <h3>My Work</h3>
-        <p>Lorem ipsum..</p>
+
       </div>
     </div>
     <div class="column">
-      <div class="content">
-        <img src="https://pbs.twimg.com/profile_images/1061721756409446401/UESFW1Cu_400x400.jpg" alt="Mountains" style="width:100%">
-        <h3>My Work</h3>
-        <p>Lorem ipsum..</p>
+            <button class="btn-img">
+                    <div class="img-wrap">
+                      <img
+                        src="https://pbs.twimg.com/profile_images/1061721756409446401/UESFW1Cu_400x400.jpg" />
+                    </div>
+                  </button>
+
       </div>
     </div>
   </div>
@@ -84,19 +85,6 @@ document.write("<small><font color='white' face='Montserrat'><b>"+daym+"/"+month
 </body>    
 
 <div id="footer"><center>© 2018 Adrià Martínez Alegret</center></div>
-    
-    <script>
-window.onscroll = function() {myFunction()};
 
-var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
 </script>
 </html>
