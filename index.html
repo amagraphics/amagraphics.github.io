@@ -10,6 +10,7 @@
     <link rel="shortcut icon" type="image/png" href="./img/ama_logo.png"/>
     <link rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Montserrat">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Home | AMA Graphics</title>
     
     <h2>Today it's <script> 
@@ -27,15 +28,19 @@ daym="0"+daym;
 document.write("<small><font color='white' face='Montserrat'><b>"+daym+"/"+month+"/"+year+"</b></font></small>") 
 </script> 
     </h3>
-    
-   
-        <img src="./img/banner.png" oncontextmenu="return false" draggable="false" onmousedown="return false" style="user-drag: none" alt="Banner">
-   <div id="navbar">
-       <a class="active" href="index.html">Home</a>
-       <a href="about.html">About</a>
-       <a href="contact.html">Contact</a>
-       <a href="https://www.linkedin.com/in/adriamartinezalegret/" target="_blank">Linkedin</a>
-</div> 
+
+    <div class="banner">
+    </div>
+
+    <div class="topnav" id="myTopnav">
+      <a href="#home" class="active">Home</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
     
     </head>
     
@@ -87,6 +92,17 @@ document.write("<small><font color='white' face='Montserrat'><b>"+daym+"/"+month
   
   <!-- END MAIN -->
   </div>
+
+  <script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+    </script>
 
 
 </body>    
