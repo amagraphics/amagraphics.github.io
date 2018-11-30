@@ -100,8 +100,16 @@ h4{
     font-family: "Montserrat", sans-serif;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 14px;
+}
+
+/*TITULS ENTRE SECCIONS (Welcome to uCraft, etc)*/
+h5{
+    color: darkgray;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 
 .caixa1{
@@ -230,14 +238,6 @@ p.padding {
     font-size: 14px;
 }
 
-/*TITULS ENTRE SECCIONS (Welcome to uCraft, etc)*/
-h5{
-    color: darkgray;
-    font-size: 18px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-}
-
 /* IMATGE ADAPTADA AL TAMANY DE PANTALLA*/
 img {
     padding: 0;
@@ -308,7 +308,7 @@ img {
 /* Add padding BETWEEN each column (if you want) */
 .row,
 .row > .column {
-    padding: 20px;
+    padding: 15px 30px;
 }
 
 /* Create four equal columns that floats next to each other */
@@ -344,7 +344,7 @@ img {
     }
 }
 
-.btn-img{<!--from  w ww. j a va 2s .  co  m-->
+.btn-img{
     display: block;
     margin: 0;
     padding: 0;
@@ -353,39 +353,40 @@ img {
     background-color: white;
   }
   
-  .btn-img .img-wrap {
+.btn-img .img-wrap {
     margin: 0px;
   }
   
-  .btn-img img {
+.btn-img img {
     display: block;
   }
   
-  .btn-img:hover .img-wrap {
+.btn-img:hover .img-wrap {
     background-color: black;
   }
   
-  .btn-img:hover img {
+.btn-img:hover img {
     opacity: 0.8;
   }
 
-  .title{
-      color: #333;
-      font-weight: bolder;
-      padding: 50px 15%;
-      font-size: 30px;
-      font-family: 'Coalition', sans-serif;
+.title{
+    color: #333;
+    font-weight: bolder;
+    padding: 50px 15%;
+    font-size: 30px;
+    font-family: 'Coalition', sans-serif;
   }
-  ul.share-buttons{
+
+ul.share-buttons{
     list-style: none;
     padding: 0;
   }
   
-  ul.share-buttons li{
+ul.share-buttons li{
     display: inline-block;
   }
   
-  ul.share-buttons .sr-only{
+ul.share-buttons .sr-only{
     position: absolute;
     clip: rect(1px 1px 1px 1px);
     clip: rect(1px, 1px, 1px, 1px);
