@@ -384,6 +384,8 @@ ul.share-buttons{
   
 ul.share-buttons li{
     display: inline-block;
+    font-size: 60px;
+    padding: 3px 5px;
   }
   
 ul.share-buttons .sr-only{
@@ -417,3 +419,4 @@ ul.share-buttons .sr-only{
     background-color: #d3b335;
     color: black;
   }
+  
