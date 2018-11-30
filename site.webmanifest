@@ -13,7 +13,8 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff",
+    "theme_color": "#333333",
+    "background_color": "#333333",
+    "start_url": "http://www.amagfx.com/",
     "display": "standalone"
 }
