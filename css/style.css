@@ -66,6 +66,10 @@ table {
 }
 
 /*CODI PROPI*/
+
+a{
+    color: white;
+}
     
 *{box-sizing: border-box;
 }
@@ -84,6 +88,7 @@ h3{
     padding-top: 10px;
     padding-bottom: 5px;
     margin-top: 15px;
+
 }
 h2{
     color:lightgray;
