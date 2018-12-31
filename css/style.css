@@ -261,7 +261,7 @@ img {
     display: none;
   }
   
-  @media screen and (max-width: 300px) {
+  @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;
@@ -341,7 +341,7 @@ img {
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
     .column {
         width: 50%;
     }
