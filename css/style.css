@@ -30,6 +30,10 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
+a {
+    text-decoration: none;
+}
+
 .banner {
     text-align: center;
     background-image: url("../img/banner.png");
@@ -107,6 +111,7 @@ h4{
     padding-bottom: 10px;
     font-weight: bolder;
     font-size: 14px;
+    text-decoration: none;
 }
 
 /*TITULS ENTRE SECCIONS (Welcome to uCraft, etc)*/
