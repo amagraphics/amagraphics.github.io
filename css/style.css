@@ -429,4 +429,15 @@ ul.share-buttons .sr-only{
     background-color: #d3b335;
     color: black;
   }
-  
+
+  /* Mozilla based browsers */
+::-moz-selection {
+       background-color: #f2cc43;
+       color: black;
+}
+
+/* Works in Safari */
+::selection {
+       background-color: #f2cc43;
+       color: black;
+}
