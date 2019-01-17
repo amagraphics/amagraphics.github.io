@@ -73,15 +73,105 @@ document.write("<small><font color='white' face='Montserrat'><b>"+daym+"/"+month
 <div class="title">POSTERS</div>
 <div class="about">
 
-<img src="https://amadesignblog.files.wordpress.com/2018/04/cartell-xerrada-laura-rosel-jpg.jpg?w=1075">
-<br>
-<br>
-<br>
-<img src="https://amadesignblog.files.wordpress.com/2018/04/acte-2-reusdig.jpg?w=1075">
-<br>
-<br>
-<br>
-<img src="https://amadesignblog.files.wordpress.com/2018/04/cartell-expo-foto-final.jpg?w=1075">
+<img id="rd1" src="https://amadesignblog.files.wordpress.com/2018/04/cartell-xerrada-laura-rosel-jpg.jpg?w=1075" alt="Reusdigital.cat" style="width:100%">
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img01">
+    <div id="caption"></div>
+  </div>
+  
+  <script>
+  // Get the modal
+  var modal = document.getElementById('myModal');
+  
+  // Get the image and insert it inside the modal - use its "alt" text as a caption
+  var img = document.getElementById('rd1');
+  var modalImg = document.getElementById("img01");
+  var captionText = document.getElementById("caption");
+  img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+  }
+  
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+  
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() { 
+    modal.style.display = "none";
+  }
+</script>
+    <br>
+    <br>
+    <br>
+<img id="rd2" src="https://amadesignblog.files.wordpress.com/2018/04/acte-2-reusdig.jpg?w=1075" alt="Reusdigital.cat" style="width:100%">
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img01">
+    <div id="caption"></div>
+  </div>
+  
+  <script>
+  // Get the modal
+  var modal = document.getElementById('myModal');
+  
+  // Get the image and insert it inside the modal - use its "alt" text as a caption
+  var img = document.getElementById('rd2');
+  var modalImg = document.getElementById("img01");
+  var captionText = document.getElementById("caption");
+  img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+  }
+  
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+  
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() { 
+    modal.style.display = "none";
+  }
+</script>
+    <br>
+    <br>
+    <br>
+<img id="rd3" src="https://amadesignblog.files.wordpress.com/2018/04/cartell-expo-foto-final.jpg?w=1075" alt="Reusdigital.cat" style="width:100%">
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img01">
+    <div id="caption"></div>
+  </div>
+  
+  <script>
+  // Get the modal
+  var modal = document.getElementById('myModal');
+  
+  // Get the image and insert it inside the modal - use its "alt" text as a caption
+  var img = document.getElementById('rd3');
+  var modalImg = document.getElementById("img01");
+  var captionText = document.getElementById("caption");
+  img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+  }
+  
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+  
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() { 
+    modal.style.display = "none";
+  }
+  </script>
 
 </div>
 
