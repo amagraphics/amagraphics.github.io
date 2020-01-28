@@ -116,10 +116,11 @@ h4{
 
 /*TITULS ENTRE SECCIONS (Welcome to uCraft, etc)*/
 h5{
-    color: darkgray;
+    color: gray;
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+    text-align: center;
 }
 
 .caixa1{
