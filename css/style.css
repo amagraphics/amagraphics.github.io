@@ -81,6 +81,10 @@ table {
 /*CODI PROPI*/
 
 /* Center website */
+.main {
+    max-width: 1200px;
+    margin: auto;
+  }
 
 a{
     color: white;
@@ -367,8 +371,8 @@ img {
   /* Responsive layout - makes a two column-layout instead of four columns */
   @media screen and (max-width: 900px) {
     .content {
-      padding-left: 10%;
-      padding-right: 10%;
+      padding-left: 30px;
+      padding-right: 30px;
     }
     .column {
       width: 50%;
