@@ -45,6 +45,15 @@ a {
     padding-top: 50px;
   }
 
+  /* Header/Logo Title */
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1b1b1b;
+  color: white;
+  font-size: 30px;
+}
+
 body {
 	line-height: 1;
     text-align: justify;
