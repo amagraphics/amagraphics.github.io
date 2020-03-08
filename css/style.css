@@ -339,6 +339,10 @@ img {
     word-break: break-all;
   }
   
+  .main {
+    max-width: 1200px;
+    margin: auto;
+  }
 
   
   
@@ -361,10 +365,7 @@ img {
     clear: both;
   }
   
-  /* Content */
-  .content {
-    padding: 10px;
-  }
+
   
   /* Responsive layout - makes a two column-layout instead of four columns */
   @media screen and (max-width: 900px) {
