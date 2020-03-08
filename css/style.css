@@ -82,7 +82,7 @@ table {
 
 /* Center website */
 .main {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: auto;
   }
 
@@ -332,11 +332,7 @@ img {
     display: inline-block;
     font-size: 14px;
 }
-/* Center website */
-.main {
-    max-width: 1280px;
-    margin: auto;
-  }
+
   
   h1 {
     font-size: 50px;
@@ -386,8 +382,8 @@ img {
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
     .content {
-      padding-left: 50px;
-      padding-right: 50px;
+      padding-left: 30px;
+      padding-right: 30px;
     }
     .column {
       width: 100%;
