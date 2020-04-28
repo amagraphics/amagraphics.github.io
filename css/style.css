@@ -22,7 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open-Sans', sans-serif;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -45,10 +45,19 @@ a {
     padding-top: 50px;
   }
 
+  /* Header/Logo Title */
+.header {
+  padding: 60px 0px 60px 0px;
+  text-align: center;
+  background: #1b1b1b;
+  color: white;
+  font-size: 30px;
+}
+
 body {
 	line-height: 1;
     text-align: justify;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open-Sans', sans-serif;
     background-color: #f7f7f7;
     font-size: 12px;
     min-height: 100%;
@@ -71,6 +80,12 @@ table {
 
 /*CODI PROPI*/
 
+/* Center website */
+.main {
+    max-width: 1200px;
+    margin: auto;
+  }
+
 a{
     color: white;
 }
@@ -82,13 +97,13 @@ h1{
     color:white;
     padding-left: 25px;
     font-size: 12px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open-Sans', sans-serif;
     background: #990000;
 }
 h3{
     color:lightgray;
     background-color: #3f3d40;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Open-Sans", sans-serif;
     padding-top: 10px;
     padding-bottom: 5px;
     margin-top: 15px;
@@ -97,7 +112,7 @@ h3{
 h2{
     color:lightgray;
     background-color: #3f3d40;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Open-Sans", sans-serif;
     padding-top: 10px;
     padding-bottom: 5px;
     padding-left: 10px;
@@ -106,20 +121,21 @@ h2{
 h4{
     color:lightgray;
     background-color: #3f3d40;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Oswald", "Open-Sans", sans-serif;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-weight: bolder;
+    font-weight: 500;
     font-size: 14px;
     text-decoration: none;
+    font-size: 1.5em;
 }
 
-/*TITULS ENTRE SECCIONS (Welcome to uCraft, etc)*/
+/*TITULS SECCIONS (Welcome to uCraft, etc)*/
 h5{
     color: gray;
     font-size: 18px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+    font-family: 'Open-Sans', sans-serif;
+    font-weight: 600;
     text-align: center;
 }
 
@@ -136,7 +152,7 @@ h5{
     position: relative;
     margin: 20px;
     margin-left: 9.5%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open-Sans', sans-serif;
     font-size: 14px;
 }
 .caixa1,ul,li{
@@ -173,7 +189,7 @@ h5{
     margin: auto;
     margin-bottom: 30px;
     margin-left: 8%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open-Sans', sans-serif;
     font-size: 14px;
 }
 
@@ -188,7 +204,7 @@ h5{
     position: relative;
     padding-left: 18%;
     padding-bottom: 50px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open-Sans', sans-serif;
     font-size: 14px;
     font-weight: 300;
     line-height: 25px;
@@ -207,7 +223,7 @@ h5{
     margin-top: 30px;
     margin-bottom: 30px;
     padding-left: 25%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open-Sans', sans-serif;
 
 }
 
@@ -245,7 +261,7 @@ h5{
 p.padding {
     padding-left: 15%;
     padding-right: 15%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open-Sans', sans-serif;
     font-size: 14px;
 }
 
@@ -294,14 +310,14 @@ img {
 }
 
 #footer {
-    clear: both;
-    position: relative;
-    z-index: 10;
-    height: 30px;
-    margin-top: -30px;
-    background-color: #333;
-    color: white;
-    padding-top: 10px;
+  clear: both;
+  position: relative;
+  z-index: 10;
+  height: 30px;
+  margin-top: 30px;
+  background-color: #333;
+  color: white;
+  padding-top: 10px;
 }
 
 .button {
@@ -316,69 +332,65 @@ img {
     display: inline-block;
     font-size: 14px;
 }
-/* Add padding BETWEEN each column (if you want) */
-.row,
-.row > .column {
-    padding: 15px 35px;
-}
-.row > .column2 {
-    padding: 15px 35px;
-}
 
-/* Create four equal columns that floats next to each other */
-.column {
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .main {
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  
+  
+  /* Add padding BETWEEN each column */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
     float: left;
-    width: 25%;    
-}
-
-/* Create four equal columns that floats next to each other */
-.column2 {
-    float: left;
-    width: 50%;    
-}
-
-/* Clear floats after rows */
-.row:after {
+    width: 25%;
+  }
+  
+  /* Clear floats after rows */ 
+  .row:after {
     content: "";
     display: table;
     clear: both;
-}
-
-/* Content */
-.image {
-    background-color: white;
+  }
+  
+  /* Content */
+  .content {
     padding: 10px;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 1920px) {
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .content {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
     .column {
-        width: 25%;
+      width: 50%;
     }
-    .column2 {
-        width: 25%;
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .content {
+      padding-left: 10%;
+      padding-right: 10%;
     }
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 900px) {
     .column {
-        width: 50%;
+      width: 100%;
     }
-    .column2 {
-        width: 50%;
-    }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-    .column {
-        width: 100%;
-    }
-    .column2 {
-        width: 100%;
-    }
-}
+  }
 
 .btn-img{
     display: block;
@@ -404,13 +416,14 @@ img {
 .btn-img:hover img {
     opacity: 0.8;
   }
-
+/*TITOLS DE LES SECCIONS*/
 .title{
     color: #333;
     font-weight: bolder;
     padding: 50px 15%;
-    font-size: 30px;
-    font-family: sans-serif;
+    font-size: 3em;
+    font-family: "Open-Sans", sans-serif;
+    text-align: center;
   }
 
 ul.share-buttons{
@@ -438,8 +451,8 @@ ul.share-buttons .sr-only{
 #myBtn {
     display: none;
     position: fixed;
-    bottom: 20px;
-    right: 12.75px;
+    bottom: 3%;
+    right: 5%;
     z-index: 99;
     font-size: 16px;
     border: none;
