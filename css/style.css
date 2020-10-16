@@ -294,7 +294,7 @@ img {
   }
   
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: #d3b335;
+    background-color: #ddd;
     color: black;
   }
   
